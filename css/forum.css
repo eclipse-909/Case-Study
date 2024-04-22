@@ -1,0 +1,17 @@
+.forum-post, .forum-reply {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.forum-post p:first-child, .forum-reply p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.forum-reply {
+    background-color: #f9f9f9;
+    border-left: 3px solid #ccc;
+    padding-left: 15px;
+}

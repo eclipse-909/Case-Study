@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personals - Redesigned Craigslist</title>
+<link rel="stylesheet" href="../css/global.css">
+<link rel="stylesheet" href="../css/post.css">
+</head>
+<body>
+    <header>
+        <h1>Redesigned Craigslist</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./home.html" class="button">Home</a></li>
+            <li><a href="./forSale.html" class="button">For Sale</a></li>
+            <li><a href="./jobs.html" class="button">Jobs</a></li>
+            <li><a href="./housing.html" class="button">Housing</a></li>
+            <li><a href="./services.html" class="button">Services</a></li>
+            <li><a href="./community.html" class="button">Community</a></li>
+            <li><a href="./forums.html" class="button">Discussion Forums</a></li>
+            <li><a href="./post.html" class="button">Make Post</a></li>
+            <li><a href="./about.html" class="button">About</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Post Your Listing</h2>
+        <form>
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="category">Category</label>
+            <select id="category" name="category" required>
+                <option value="">Select a category</option>
+                <option value="for-sale">For Sale</option>
+                <option value="jobs">Jobs</option>
+                <option value="housing">Housing</option>
+                <option value="services">Services</option>
+                <option value="community">Community</option>
+                <option value="forums">Discussion Forums</option>
+                <option value="personals">Personals</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="description">Description</label>
+            <textarea id="description" name="description" rows="5" required></textarea>
+
+            <label for="contact">Contact Info</label>
+            <input type="text" id="contact" name="contact" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>&copy Ethan Morton April 22, 2024</p>
+    </footer>
+</body>
+</html>
