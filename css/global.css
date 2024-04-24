@@ -8,6 +8,10 @@ header {
     color: white;
     padding: 10px 20px;
 }
+header img {
+    height: 75px;
+    margin-right: 10px;
+}
 nav {
     background-color: #444;
     padding: 10px 20px;
@@ -100,6 +104,13 @@ button:hover {
 
 .item-list h2 {
     margin-bottom: 20px;
+}
+
+.item-list .item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
 }
 
 .item {
