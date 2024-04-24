@@ -106,7 +106,7 @@ button:hover {
     margin-bottom: 20px;
 }
 
-.item-list .item img {
+.item img {
     width: 100px;
     height: 100px;
     object-fit: cover;
