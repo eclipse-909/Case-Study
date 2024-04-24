@@ -1,0 +1,44 @@
+.post-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.post-list h2 {
+    margin-bottom: 20px;
+}
+
+.post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 75px 10px 0;
+    position: relative;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.edit-btn, .delete-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #007bff;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.edit-btn {
+    right: 40px;
+}
+
+.delete-btn {
+    right: 10px;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    opacity: 1;
+}

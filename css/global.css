@@ -75,3 +75,39 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+.lang-dropdown {
+    float: right;
+    margin-top: -35px;
+}
+.lang-dropdown label {
+    color: #fff;
+}
+.lang-dropdown select {
+    padding: 5px;
+    border-radius: 4px;
+}
+.item-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    overflow: auto;
+    max-height: 500px;
+}
+
+.item-list h2 {
+    margin-bottom: 20px;
+}
+
+.item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    position: relative;
+}
+
+.item:last-child {
+    border-bottom: none;
+}

@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About - Redesigned Craigslist</title>
+        <title>My Active Posts - Redesigned Craigslist</title>
         <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="../css/myPost.css">
     </head>
     <body>
         <header>
@@ -33,20 +34,23 @@
             </div>
         </nav>
         <section>
-            <h2>About Redesigned Craigslist</h2>
-            <p>This is a redesigned version of Craigslist, created for educational purposes. It demonstrates a modern and cleaner design compared to the original Craigslist website.</p>
-            <p>
-                Our main issues with Craigslist is how the website looks like there is a lack of styling, as if someone forgot to link in the stylesheet.
-                It's a little hard on the eyes, and the style looks very antiquated. It's basically just a white background with blue text/links.
-                The way the content is organized is also sub-optimal. It seems that things are clumped together unnecessarily.
-                The home page is the worst part about it. The category-pages are organized decently, but they still lack styling.
-            </p>
-            <p>
-                The main thing we wanted to focus on with our redesigned version was to add consistent, visually-pleasing styling to the website,
-                and separate the pages out so that they are grouped into categories. The home page doesn't represent a hub to navigate to the other pages.
-                We changed it to simply show featured items. We have a navigation bar at the top to reduce complexity and allow simple switching between categories.
-                The navigation bar is the way users will navigate between pages rather than returning to the home page.
-            </p>
+            <h2>My Active Posts</h2>
+            <div class="post-list">
+                <div class="post">
+                    <h3>Post Title 1</h3>
+                    <p>Description of the post. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Contact: example1@example.com</p>
+                    <span class="edit-btn"><i class="fas fa-pencil-alt"></i></span>
+                    <span class="delete-btn"><i class="fas fa-trash-alt"></i></span>
+                </div>
+                <div class="post">
+                    <h3>Post Title 2</h3>
+                    <p>Description of the post. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p>Contact: example2@example.com</p>
+                    <span class="edit-btn"><i class="fas fa-pencil-alt"></i></span>
+                    <span class="delete-btn"><i class="fas fa-trash-alt"></i></span>
+                </div>
+            </div>
         </section>
         <footer>
             <p>&copy Ethan Morton April 22, 2024</p>

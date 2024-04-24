@@ -7,7 +7,7 @@ form {
     border: 1px solid #ddd;
 }
 
-label {
+form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
@@ -32,5 +32,23 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.view-posts {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-posts a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-posts a:hover {
     background-color: #0056b3;
 }

@@ -1,60 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>For Sale - Redesigned Craigslist</title>
-<link rel="stylesheet" href="../css/global.css">
-</head>
-<body>
-    <header>
-        <h1>Redesigned Craigslist</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="./home.html" class="button">Home</a></li>
-            <li><a href="./forSale.html" class="button">For Sale</a></li>
-            <li><a href="./jobs.html" class="button">Jobs</a></li>
-            <li><a href="./housing.html" class="button">Housing</a></li>
-            <li><a href="./services.html" class="button">Services</a></li>
-            <li><a href="./community.html" class="button">Community</a></li>
-            <li><a href="./forums.html" class="button">Discussion Forums</a></li>
-            <li><a href="./post.html" class="button">Make Post</a></li>
-            <li><a href="./about.html" class="button">About</a></li>
-        </ul>
-    </nav>
-    <section>
-        <h2>Items for Sale</h2>
-        <div class="filters">
-            <input type="text" id="search" placeholder="Search...">
-            <select id="category">
-                <option value="">All Categories</option>
-                <option value="electronics">Electronics</option>
-                <option value="clothing">Clothing</option>
-                <option value="furniture">Furniture</option>
-                <option value="books">Books</option>\
-            </select>
-            <button>Apply Filters</button>
-        </div>
-        <ul id="item-list">
-            <li>
-                <h3>Item Title 1</h3>
-                <p>Description of the item 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p>Price: $100</p>
-                <p>Contact: example1@example.com</p>
-                <span class="category">Electronics</span>
-            </li>
-            <li>
-                <h3>Item Title 2</h3>
-                <p>Description of the item 2. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <p>Price: $200</p>
-                <p>Contact: example2@example.com</p>
-                <span class="category">Clothing</span>
-            </li>
-        </ul>
-    </section>
-    <footer>
-        <p>&copy Ethan Morton April 22, 2024</p>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>For Sale - Redesigned Craigslist</title>
+        <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <h1>Redesigned Craigslist</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="./home.html" class="button">Home</a></li>
+                <li><a href="./forSale.html" class="button">For Sale</a></li>
+                <li><a href="./jobs.html" class="button">Jobs</a></li>
+                <li><a href="./housing.html" class="button">Housing</a></li>
+                <li><a href="./services.html" class="button">Services</a></li>
+                <li><a href="./community.html" class="button">Community</a></li>
+                <li><a href="./forums.html" class="button">Discussion Forums</a></li>
+                <li><a href="./post.html" class="button">Make Post</a></li>
+                <li><a href="./about.html" class="button">About</a></li>
+            </ul>
+            <div class="lang-dropdown">
+                <label for="lang-select">Select Language:</label>
+                <select id="lang-select">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="de">German</option>
+                </select>
+            </div>
+        </nav>
+        <section>
+            <h2>Items for Sale</h2>
+            <div class="filters">
+                <input type="text" id="search" placeholder="Search...">
+                <select id="category">
+                    <option value="">All Categories</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="furniture">Furniture</option>
+                    <option value="books">Books</option>\
+                </select>
+                <button>Apply Filters</button>
+            </div>
+            <div class="item-list">
+                <div class="item">
+                    <img src="../img/dyson.png" alt="Item Image" style="width: 100px; height: 100px; object-fit: cover; margin-right: 20px;">
+                    <h3>Item Title 1</h3>
+                    <p>Description of the item. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Price: $100</p>
+                </div>
+                <div class="item">
+                    <img src="../img/dyson.png" alt="Item Image" style="width: 100px; height: 100px; object-fit: cover; margin-right: 20px;">
+                    <h3>Item Title 2</h3>
+                    <p>Description of the item. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p>Price: $200</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&copy Ethan Morton April 22, 2024</p>
+        </footer>
+    </body>
 </html>
