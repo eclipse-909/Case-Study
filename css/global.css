@@ -2,10 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f6f9fc;
+    color: #333;
 }
 header {
-    background-color: #333;
-    color: white;
+    background-color: #9c73af;
+    color: #fff;
     padding: 10px 20px;
 }
 header img {
@@ -13,7 +15,7 @@ header img {
     margin-right: 10px;
 }
 nav {
-    background-color: #444;
+    background-color: #5ba2d3;
     padding: 10px 20px;
 }
 nav ul {
@@ -32,16 +34,19 @@ nav ul li a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #555;
-    color: white;
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: #356c8c;
 }
 section {
     padding: 20px;
 }
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #5ba2d3;
+    color: #fff;
     text-align: center;
     padding: 10px 0;
     position: fixed;
@@ -51,7 +56,6 @@ footer {
 .filters {
     margin-bottom: 20px;
 }
-
 input[type="text"] {
     padding: 8px;
     width: 200px;
@@ -59,14 +63,12 @@ input[type="text"] {
     border-radius: 4px;
     margin-right: 10px;
 }
-
 select {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-right: 10px;
 }
-
 button {
     padding: 8px 16px;
     background-color: #007bff;
@@ -75,7 +77,6 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
-
 button:hover {
     background-color: #0056b3;
 }
@@ -101,24 +102,20 @@ button:hover {
     overflow: auto;
     max-height: 500px;
 }
-
 .item-list h2 {
     margin-bottom: 20px;
 }
-
 .item img {
     width: 100px;
     height: 100px;
     object-fit: cover;
     margin-right: 20px;
 }
-
 .item {
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
     position: relative;
 }
-
 .item:last-child {
     border-bottom: none;
 }
